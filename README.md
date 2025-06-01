@@ -1,71 +1,91 @@
-Ethical Hacking Assignment - Group 24
-This repository contains the documentation, evidence, and analysis of a comprehensive penetration test conducted on a simulated network environment for the PUSL 3132: Ethical Hacking coursework at Plymouth University.
+# Ethical Hacking Assignment - Group 24
 
-📚 Objectives
-Assess the security posture of the Clarke’s Ceylon Team digital infrastructure.
+This repository contains the documentation, evidence, and analysis of a comprehensive penetration test conducted on a simulated network environment for the **PUSL 3132: Ethical Hacking** coursework at **Plymouth University**.
 
-Identify vulnerabilities that could be exploited by an attacker.
+## 📚 Objectives
 
-Demonstrate successful exploitation and post-exploitation activities.
+- Assess the security posture of the Clarke’s Ceylon Team digital infrastructure.
 
-Provide actionable mitigation recommendations to improve security.
+- Identify vulnerabilities that could be exploited by an attacker.
 
-📝 Methodology
-Planning: Defined scope, constraints, and methodologies.
+- Demonstrate successful exploitation and post-exploitation activities.
 
-Reconnaissance: Collected information using Nmap and Nessus.
+- Provide actionable mitigation recommendations to improve security.
 
-Threat Modeling: Identified critical assets and potential threats.
+## 📝 Methodology
 
-Vulnerability Assessment: Employed automated tools and manual analysis.
+- **Planning**: Defined scope, constraints, and methodologies.
 
-Exploitation: Conducted targeted attacks using Metasploit.
+- **Reconnaissance**: Collected information using **Nmap** and **Nessus**.
 
-Post-Exploitation: Collected sensitive data and performed lateral movement.
+- **Threat Modeling**: Identified critical assets and potential threats.
 
-Reporting: Documented findings, screenshots, and mitigation strategies.
+- **Vulnerability Assessment**: Employed automated tools and manual analysis.
 
-🛠️ Key Tools Used
-Nmap: Network scanning and service discovery.
+- **Exploitation**: Conducted targeted attacks using **Metasploit**.
 
-Nessus: Vulnerability assessment.
+- **Post-Exploitation**: Collected sensitive data and performed lateral movement.
 
-Metasploit: Exploitation and post-exploitation framework.
+- **Reporting**: Documented findings, screenshots, and mitigation strategies.
 
-John the Ripper: Password hash cracking.
+## 🛠️ Key Tools Used
 
-🚨 Findings
-SMBv1/SMB Signing Disabled: Enabled exploits like EternalBlue (MS17-010).
+- **Nmap**: Network scanning and service discovery.
 
-Weak/Default Credentials: Allowed unauthorized access.
+- **Nessus**: Vulnerability assessment.
 
-Outdated Operating Systems and Software: Created exposure to known exploits.
+- **Metasploit**: Exploitation and post-exploitation framework.
 
-Insecure Protocols: Use of Telnet and self-signed SSL certificates.
+- **John the Ripper**: Password hash cracking.
 
-Misconfigured Services: FTP with anonymous access, misconfigured SSH.
+## 🚨 Findings
 
-🔥 Key Exploitation Highlights
-Successful exploitation of MS17-010 (EternalBlue) on host 172.168.0.38, resulting in a Meterpreter session and password hash extraction.
+- SMBv1/SMB Signing Disabled: Enabled exploits like EternalBlue (MS17-010).
 
-Cracking of password hashes using John the Ripper.
+- Weak/Default Credentials: Allowed unauthorized access.
 
-🛡️ Mitigation Recommendations
-Update and patch outdated software and operating systems.
+- Outdated Operating Systems and Software: Created exposure to known exploits.
 
-Enforce SMB signing and disable SMBv1.
+- Insecure Protocols: Use of Telnet and self-signed SSL certificates.
 
-Replace Telnet with SSH and enforce strong encryption protocols (TLS 1.2+).
+- Misconfigured Services: FTP with anonymous access, misconfigured SSH.
 
-Use multi-factor authentication and strong password policies.
+## 🔥 Key Exploitation Highlights
 
-Regularly review firewall configurations and disable unused services.
+- Successful exploitation of **MS17-010 (EternalBlue)** on host `172.168.0.38`, resulting in a **Meterpreter session** and password hash extraction.
 
-📂 Usage
-Ethical Hacking Assignment Report (Ethical Hacking Assignment _GROUP-24.pdf).
+- Cracking of password hashes using **John the Ripper**.
 
-Screenshots demonstrating reconnaissance, exploitation, and post-exploitation.
+## 🛡️ Mitigation Recommendations
 
-Nessus and Nmap reports highlighting vulnerabilities.
+- Update and patch outdated software and operating systems.
 
-⚠️ Disclaimer: All activities were conducted in a controlled, educational environment with explicit permission. Unauthorized access to systems without consent is illegal.
+- Enforce SMB signing and disable SMBv1.
+
+- Replace Telnet with SSH and enforce strong encryption protocols (TLS 1.2+).
+
+- Use multi-factor authentication and strong password policies.
+
+- Regularly review firewall configurations and disable unused services.
+
+## 📂 Usage
+
+- Ethical Hacking Assignment Report (`Ethical Hacking Assignment _GROUP-24.pdf`).
+
+- Screenshots demonstrating reconnaissance, exploitation, and post-exploitation.
+
+- Nessus and Nmap reports highlighting vulnerabilities.
+
+- ⚠️ **Disclaimer**: All activities were conducted in a controlled, educational environment with explicit permission. Unauthorized access to systems without consent is illegal.
+
+## 📚 References
+
+- [Metasploit Framework Documentation](https://docs.metasploit.com/)
+
+- [Nmap Official Site](https://nmap.org/)
+
+- [OWASP Penetration Testing Methodology](https://owasp.org/)
+
+- [Microsoft CVE Details](https://www.cvedetails.com/)
+
+- [National Institute of Standards and Technology](https://www.nist.gov/cyberframework)

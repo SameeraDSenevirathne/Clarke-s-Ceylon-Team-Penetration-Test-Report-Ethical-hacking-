@@ -2,7 +2,7 @@ Ethical Hacking Assignment - Group 24
 This repository contains the documentation, evidence, and analysis of a comprehensive penetration test conducted on a simulated network environment for the PUSL 3132: Ethical Hacking coursework at Plymouth University.
 
 📚 Objectives
-🔎 Assess the security posture of the Clarke’s Ceylon Team digital infrastructure.
+- 🔎 Assess the security posture of the Clarke’s Ceylon Team digital infrastructure.
 
 🕵️‍♂️ Identify vulnerabilities that could be exploited by an attacker.
 
